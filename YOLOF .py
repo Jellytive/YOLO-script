@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import os
 
 # Ruta de la carpeta con los frames
-frames_folder = "SEMANA 2/ejemplo/frames"
+frames_folder = "/frames"
 
 # Ruta de la carpeta con los archivos txt en formato YOLO
-yolo_folder = "SEMANA 2/ejemplo/annots"
+yolo_folder = "/annots"
 
 # Ruta de resultados
-Result_frames = "SEMANA 2/resultadosframes"
+Result_frames = "/resultadosframes"
 
 # Pedir al usuario que ingrese el color del rectángulo en formato (B,G,R)
 color_str = input("Ingrese el color del rectángulo en formato (B,G,R): ")
